@@ -1,0 +1,32 @@
+/*
+css: cascading style sheet
+html에 <style>을 모두 적으면 너무 길어져서 분리
+*/
+
+
+<style>
+.div-flex{
+ display: flex;
+}
+.content{width="70%
+}
+.div-title{
+ display: flex;
+}
+.div-title p,h4{
+    margin:0;
+}
+.div-title img{
+    border-radius:90px;
+}
+.contauner{
+    width: 80%;
+    margin: auto;
+}
+.div-img{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+</style>
