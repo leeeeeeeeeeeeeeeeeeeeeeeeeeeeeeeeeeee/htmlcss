@@ -1,0 +1,30 @@
+.member {
+  color: #73a0b8;
+  border: 1px solid #73a0b8;
+  border-radius: 4px;
+  background: white;
+}
+
+.box {
+  border: 1px solid #98eccb;
+  border-radius: 4px;
+  background: #98eccb;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.back {
+  border: 1px solid #9dd6ff;
+  border-radius: 4px;
+  background: #9dd6ff;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.ty {
+  border: 1px solid #c9c5ff;
+  border-radius: 4px;
+  background: #c9c5ff;
+  padding: 2px;
+  font-weight: 600;
+}

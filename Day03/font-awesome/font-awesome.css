@@ -1,0 +1,20 @@
+.fire {
+  background-color: #ff7979;
+  padding: 24px;
+  border-radius: 24px;
+  font-size: 30px;
+  color: white;
+  margin-right: 10px;
+}
+.talk {
+  background-color: #569aff;
+  padding: 24px;
+  border-radius: 24px;
+  font-size: 30px;
+
+  color: white;
+}
+.box {
+  margin: 30px;
+}
+/* icon 크키- font-size */
