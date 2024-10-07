@@ -1,0 +1,27 @@
+.man1{
+font-weight: 700;
+    background-color: rgb(26, 134, 196);
+color: white;
+border: 1px solid rgb(26, 134, 196);
+border-radius: 2px;
+padding: 10px 40px;
+}
+    
+.man2{
+    font-weight: 700;
+    background-color: rgb(26, 134, 196);
+color: white;
+border: 1px solid rgb(26, 134, 196);
+border-radius: 2px;
+padding: 10px 40px;
+}
+
+.gong{
+    
+    background-color:  rgb(235, 232, 232);
+color: black;
+border: 1px solid rgb(235, 232, 232);
+border-radius: 2px;
+padding: 10px 20px;
+}
+

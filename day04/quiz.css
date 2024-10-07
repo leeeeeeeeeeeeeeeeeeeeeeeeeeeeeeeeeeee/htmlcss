@@ -1,0 +1,36 @@
+
+
+.travel{
+    /* 자식을 수평으로 배치하기*/
+    display: flex;
+
+}
+.card{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.album{
+
+    width: 100px;
+    height: 100px;
+}
+
+
+.album>img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.right{
+margin: 3px;
+
+}
+
+.top{
+    margin: 3px;
+}

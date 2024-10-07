@@ -37,6 +37,7 @@
   font-weight: 50px;
   border-radius: 7px;
   color: white;
+  margin-bottom: 20px;
 }
 .goo {
   background-color: white;
@@ -46,5 +47,4 @@
   font-weight: 50px;
   border-radius: 7px;
   color: gray;
-  margin-bottom: 20px;
 }
