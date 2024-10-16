@@ -1,0 +1,124 @@
+
+
+
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+    padding: 10px 10px;
+}
+
+.hotel{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    }
+.bu{background-image: url(hotel1.jpg);}
+.ka{background-image: url(gangleung.jpg);}
+.in{background-image:url(incheon.jpg) ;}
+.kaa{background-image: url(busan.jpg);}
+.font{color: white;
+    padding: 5px 10px;
+}
+.day{font-size: x-small;}
+.jo{font-size: x-small;}
+.in2{font-size: x-small;}
+.ka2{font-size: x-small;}
+.ka4{font-size: x-small;}
+.in4{font-size: x-small;}
+.kaa3{font-size: x-small;}
+.kaa{font-size: x-small;}
+.busan{
+    font-weight: bolder;
+    gap: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.kang{
+    font-weight: bolder;
+    font-size: large;
+    gap: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.ka3{
+    font-weight: bolder;
+    gap: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.in3{
+    font-weight: bolder;
+    gap: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container{
+    /*카드들 정렬*/
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card{
+/*카드 모양*/
+width:300px ;
+height: 400px;
+padding: 10px 20px 10px 20px;
+border-radius: 14px;
+/*카드 안의 내용*/
+display: flex;
+flex-direction: column;
+gap: 10px;
+background-size: cover;
+/*색깔,폰트*/
+color: white;
+font-family:"pretendard-reguler";
+}
+.hotel1{background-image:url(busan.jpg);
+/*50% 50% -> x축 y축에서 정가운데 */
+background-position: 50% 50%;
+}
+
+.hotel2{background-image:url(gangleung.jpg);}
+.hotel3{background-image:url(hotel1.jpg);}
+.hotel4{background-image:url(incheon.jpg);}
+.hotel5{
+   
+    background:linear-gradient(to right, red,blue);
+}
+.category{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    padding-bottom:5px;
+    width:fit-content;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    font-size: 30px;
+}
+.sub{
+    font-size: 18px;
+}
+
