@@ -1,0 +1,16 @@
+.container{
+    /* 자식을 바둑판 */
+    display: grid;
+    /* 열의 갯수 설정 */
+    grid-template-columns: repeat(5,1fr);
+    /* 자식들의 간격 */
+    gap: 10px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+
+
+}
