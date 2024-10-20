@@ -1,0 +1,86 @@
+.box{
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+    width: 200px;;
+    height: 100px;
+    
+ 
+    ;
+}
+.card{
+
+    display: flex;
+    flex-direction: row;
+}
+.color1
+    {
+       
+        background-color: aquamarine;
+    
+}
+
+.color2
+    {
+        
+        background-color: rgb(255, 221, 27);
+    
+}
+
+.color3
+    {
+        
+        background-color: rgb(10, 55, 255);
+    
+}
+.color4
+    {
+       
+        background-color: rgb(255, 4, 180);
+    
+}
+.body{
+height:300vh;
+background-color: gray;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+width: fit-content;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+
+}
+
+.red{
+    background-color: rgb(255, 4, 180);
+    position: fixed;
+    top:0px;
+}
+.blue{
+    background-color: rgb(10, 55, 255);
+}
+.green{
+    background-color: aquamarine;
+    position: relative;
+    top: 30px;
+    left:50px;
+    z-index: 1;
+}
+.yellow{
+    background-color: rgb(255, 221, 27);
+    
+    /*포지션 위치속성 top,button,left,right 필수*/
+    /*relative 지금 위치에서 */
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.text{
+    /*absolute는 부모가 포지션이  relative이면 거기서 기준을 잡음 */
+    position: absolute
+    lefe: 10px;
+}

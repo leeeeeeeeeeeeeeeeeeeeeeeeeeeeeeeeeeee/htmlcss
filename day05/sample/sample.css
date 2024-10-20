@@ -1,0 +1,7 @@
+.in{
+    width: 800px;
+    height: 800px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background:linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
