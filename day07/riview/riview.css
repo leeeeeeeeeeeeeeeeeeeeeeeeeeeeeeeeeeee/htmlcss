@@ -1,0 +1,60 @@
+
+
+.first{
+    /*화면전체차지*/
+    width: 100vw;
+    height: 100vh;
+    
+    /*자식이 가운데로 정렬*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.motto{
+    color: skyblue;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.title{
+    gap:10px;
+    font-size: 50px;
+    margin-bottom :50px;
+    font-weight: bold;
+    }
+.sub{
+        gap:5px;
+        font-size: 10px;
+        color: darkgray;
+        margin-bottom :30px;
+    }
+.download{
+        display: flex;
+        gap: 10px;
+    }
+.button{
+        display: flex;
+        gap:10px;
+        padding: 20px;
+        border: 1px solid rgb(223, 220, 220);
+        border-radius: 16px;
+        font-weight: bold;
+    }
+.icon{
+        font-size: 30px;
+    }
+.button>.text{
+      gap:10px;
+       }
+.android{
+        background-color:#3aa1ff;
+        color: white;
+        }
+   
+    

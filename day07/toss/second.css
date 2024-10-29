@@ -1,0 +1,19 @@
+.second{
+    width:100vw;
+    background-color: #f9fafb;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 200px 0;
+   
+   }
+   .second  >.contents{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size:32px ;
+    font-weight: bold;
+   }
+
+
